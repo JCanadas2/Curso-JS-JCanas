@@ -1,7 +1,7 @@
 const producto = 'Tablet';
 
 // No se pueden reasignar
-// producto ="Monitor"
+// producto ="Monitor o Tablet"
 
 console.log(producto);
 

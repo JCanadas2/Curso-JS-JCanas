@@ -1,15 +1,20 @@
 const producto = 'Monitor 20 Pulgadas';
-console.log(producto.toUpperCase());
 
+// Convertir la cadena de texto a mayúsculas y imprimir en la consola
+console.log(producto.toUpperCase()); // Imprime: MONITOR 20 PULGADAS
 
-console.log(producto.toLowerCase());
-
+// Convertir la cadena de texto a minúsculas y imprimir en la consola
+console.log(producto.toLowerCase()); // Imprime: monitor 20 pulgadas
 
 const email = "CORREO@CORREO.COM";
 
-console.log(email.toLowerCase());
-
+// Convertir el correo electrónico a minúsculas y imprimir en la consola
+console.log(email.toLowerCase()); // Imprime: correo@correo.com
 
 const precio = 300;
-console.log(precio);
-console.log(precio.toString());
+
+// Imprimir el precio en la consola
+console.log(precio); // Imprime: 300
+
+// Convertir el número a cadena de texto y imprimir en la consola
+console.log(precio.toString()); // Imprime: "300"
