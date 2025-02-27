@@ -1,12 +1,16 @@
-document.addEventListener('DOMContetntLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() {
     const inputEmail = document.querySelector('#email');
-    const inputAsunto = document.querySelector('#email');
-    const inputMensaje = document.querySelector('#email');
+    const inputAsunto = document.querySelector('#asunto');
+    const inputMensaje = document.querySelector('#mensaje');
     console.log('Email: ', inputEmail);
-    console.log('asunto: ', inputAsunto);
-    console.log('mensaje: ', inputMensaje);
+    console.log('Asunto: ', inputAsunto);
+    console.log('Mensaje: ', inputMensaje);
 
-    inputEmail.addEventListener('blur', function(e) {
+    inputEmail.addEventListener('blur', validar(e) );
+    inputAsunto.addEventListener('blur', validar(e) );
+    inputMensaje.addEventListener('blur', validar(e) );
+
+    function validar(e) {
         console.log(e.target.value);
-    });
+    }
 });
